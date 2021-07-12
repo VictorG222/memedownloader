@@ -117,8 +117,8 @@ class _ImagenMeme extends StatelessWidget {
         tag: _meme.name!.toString(),
         child: FadeInImage(
           fit: BoxFit.cover,
-          height: _mediaSize.height * 0.40,
-          width: _mediaSize.width * 0.90,
+          height: _mediaSize.height * 0.30,
+          width: _mediaSize.width * 0.80,
           placeholder: AssetImage('assets/cargando.gif'),
           image: NetworkImage(_meme.image!.toString()),
         ),
