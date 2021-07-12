@@ -118,7 +118,7 @@ class _ImagenMeme extends StatelessWidget {
         child: FadeInImage(
           fit: BoxFit.cover,
           height: _mediaSize.height * 0.30,
-          width: _mediaSize.width * 0.80,
+          width: _mediaSize.width * 0.90,
           placeholder: AssetImage('assets/cargando.gif'),
           image: NetworkImage(_meme.image!.toString()),
         ),
